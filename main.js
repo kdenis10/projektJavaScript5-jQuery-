@@ -10,7 +10,7 @@
 //     }, 500)
 // })
 
-//Skróconyj zapis:
+//Skrócony zapis:
 $('nav a').on("click", function(){
     //Najpierw pobieram element:
     const goToSection = "#"+$(this).attr('class');
